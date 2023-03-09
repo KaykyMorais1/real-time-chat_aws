@@ -45,7 +45,7 @@ export const ChatClient = (props: Props) => {
             </List>
           </Grid>
           {/* Grid das mensagens enviadas  */}
-          <Grid style={{ position: 'relative',}} item container direction="column" xs={10} >
+          <Grid style={{ position: 'relative', overflowY:'scroll', maxHeight: '100%'}} item container direction="column" xs={10} >
             <Paper style={{ minWidth:'12rem' ,flex: 1, backgroundColor: '#4b0082 ', borderRadius: '0px 10px 10px 0px' }}>
               <Grid item container style={{ height: '100%' }} direction="column">
                 <Grid item container style={{ flex: 1 }}>

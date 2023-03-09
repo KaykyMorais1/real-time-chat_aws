@@ -1,5 +1,6 @@
 .main-container {
-    height: 90%;
+    max-height: 80%;
+    height: 80%;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
